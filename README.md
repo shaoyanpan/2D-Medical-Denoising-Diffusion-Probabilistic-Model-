@@ -23,6 +23,9 @@ The usage is in the jupyter notebook TDM main.ipynb. Including how to build a di
 
 **Create diffusion**
 ```
+from diffusion.Create_diffusion import *
+from diffusion.resampler import *
+
 diffusion = create_gaussian_diffusion(
     steps=1000,
     learn_sigma=True,
