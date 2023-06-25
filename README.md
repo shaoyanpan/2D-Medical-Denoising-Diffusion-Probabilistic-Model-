@@ -15,8 +15,7 @@ This is the repository for the paper "[2D Medical Image Synthesis Using Transfor
 ![image_4](https://github.com/shaoyanpan/2D-Medical-Denoising-Diffusion-Probabilistic-Model-/assets/89927506/f64e4cc0-155d-4b17-b6aa-68d2362be7ec)
 
 
-
-The codes were created based on [image-guided diffusion](https://github.com/openai/guided-diffusion) and [nnformer](https://github.com/282857341/nnFormer)
+**The codes were created based on [image-guided diffusion](https://github.com/openai/guided-diffusion) and [nnformer](https://github.com/282857341/nnFormer)**
 
 Updated 1.1:
 With a modified variational bound loss code following the image-guided diffusion, we are able to use 50 timesteps (instead of 500 in the paper) to generate the fancy images! The details will be shown in our next paper "[Synthetic CT Generation from MRI using 3D Transformer-based Denoising Diffusion Model](https://arxiv.org/abs/2305.19467)"
