@@ -2,7 +2,7 @@
 # 2D-Medical-Denoising-Diffusion-Probabilistic-Model
 **This is the repository for the paper "[2D Medical Image Synthesis Using Transformer-based Denoising Diffusion Probabilistic Model](https://iopscience.iop.org/article/10.1088/1361-6560/acca5c/meta)".**
 
-The codes were created based on [image-guided diffusion](https://github.com/openai/guided-diffusion) and [nnformer](https://github.com/282857341/nnFormer)
+The codes were created based on [image-guided diffusion](https://github.com/openai/guided-diffusion), [SwinUnet](https://github.com/HuCaoFighting/Swin-Unet), and [Monai](https://monai.io/)
 
 Updated 1.1:
 With a modified variational bound loss code following the image-guided diffusion, we are able to use 1000 training timestep and 250 inference timesteps (instead of 4000 training and 500 inference timesteps in the paper) and stablize the training process to generate the fancy images! Maybe this is not very important for 2D synthesis, but it is critical for 3D synthesis!!
