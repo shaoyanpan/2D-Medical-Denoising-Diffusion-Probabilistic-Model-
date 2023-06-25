@@ -44,10 +44,10 @@ attention_ds = []
 for res in attention_resolutions.split(","):
     attention_ds.append(int(res))
 
-
+image_size = 256
 from network.Diffusion_model_transformer import *
 model = SwinVITModel(
-        image_size=(256,256),
+        image_size=(image_size,image_size),
         in_channels=1,
         model_channels=128,
         out_channels=2,
