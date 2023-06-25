@@ -5,7 +5,7 @@
 The codes were created based on [image-guided diffusion](https://github.com/openai/guided-diffusion) and [nnformer](https://github.com/282857341/nnFormer)
 
 Updated 1.1:
-With a modified variational bound loss code following the image-guided diffusion, we are able to use 50 timesteps (instead of 500 in the paper) to generate the fancy images! Maybe this is not very important for 2D synthesis, but it is critical for 3D synthesis!!
+With a modified variational bound loss code following the image-guided diffusion, we are able to use 1000 training timestep and 250 inference timesteps (instead of 4000 training and 500 inference timesteps in the paper) to generate the fancy images! Maybe this is not very important for 2D synthesis, but it is critical for 3D synthesis!!
 The details are shown in our another paper "[Synthetic CT Generation from MRI using 3D Transformer-based Denoising Diffusion Model](https://arxiv.org/abs/2305.19467)"
 
 # Required packages
